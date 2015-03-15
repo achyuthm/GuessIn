@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/settings">
+    <PreferenceCategory 
+        android:title="@string/mode" 
+        android:enabled="true" android:key="pref_mode_categ">
+        <ListPreference 
+            android:key="pref_mode_settings" 
+            android:title="@string/mode"
+            android:entries="@array/mode_names"
+            android:entryValues="@array/mode_desc" 
+            android:summary="Select difficulty level"/>
+    </PreferenceCategory>
+    
+    <CheckBoxPreference 
+        android:title="@string/sound" 
+        android:key="pref_sound" />
+    
+    <Preference 
+        android:key="pref_howtoplay" 
+        android:title="@string/how" />
+    
+    <Preference 
+        android:key="pref_tellafriend" 
+        android:title="@string/tell" />
+    
+    <Preference 
+        android:key="pref_stats" 
+        android:title="@string/stats"/>
+    
+    <Preference 
+        android:key="pref_about" 
+        android:title="@string/about"/>
+
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow 
+        >
+        <TextView 
+            android:id="@+id/fb_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:text="@string/facebook_icon"
+            android:layout_weight="1"
+            android:textSize="47sp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:textColor="#3b5998"
+            android:background="@drawable/share_icon_selector"
+            />
+        <TextView 
+            android:id="@+id/twitter_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:text="@string/twitter_icon"
+            android:layout_weight="1"
+            android:textSize="47sp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:textColor="#4099ff"
+            android:background="@drawable/share_icon_selector"
+            />
+        <TextView 
+            android:id="@+id/gplus_icon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:text="@string/google_icon"
+            android:layout_weight="1"
+            android:textSize="47sp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:textColor="#d34836"
+            android:background="@drawable/share_icon_selector"
+            />
+    </TableRow>
+
+</TableLayout>

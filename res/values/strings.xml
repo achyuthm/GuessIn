@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessIn</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="myword">Guess</string>
+    <string name="myword2">in</string>
+    <string name="intromessage">This \'smart\' phone has thought of a word for you and you have to guess it!</string>
+    <string name="startbtnmsg">Start!</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="edittexthint">Add your word here</string>
+    <string name="title_activity_game_play">GamePlay</string>
+    <string name="contentdesc">TODO</string>
+    <string name="fourletterword">4 letter word</string>
+    <string name="sixletterword">6 letter word</string>
+    <string name="eightletterword">8 letter word</string>
+    <string name="awesomeness">Awesomeness</string>
+    <string name="settings">Settings</string>
+    <string name="menuicon">&#xf0c9;</string>
+    <string name="title_activity_glory">Glory</string>
+    <string name="share_icon">&#xf045;</string>
+    <string name="newgame_icon">&#xf01e;</string>
+    <string name="share">Share</string>
+    <string name="newgame">New Game</string>
+    <string name="bestscores">Your best attempts</string>
+    <string name="easy_mode">Easy (4 letter words)</string>
+    <string name="medium_mode">Medium (6 letter words)</string>
+    <string name="icon_right">&#xf054;</string>
+    <string name="check">&#xf00c;</string>
+    <string name="complex_mode">Complex (8 letter words)</string>
+    <string name="mode">Mode</string>
+    <string name="sound">Sound</string>
+    <string name="how">How to play</string>
+    <string name="tell">Tell a friend</string>
+    <string name="stats">Your stats</string>
+    <string name="about">About</string>
+    <string name="title_activity_settings">Settings and more</string>
+    <string name="newgameicon">&#xf01e;</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="your_stats">Your stats</string>
+    <string name="clear_stats">Clear stats</string>
+    <string name="tick_symbol">&#xf058;</string>
+    <string name="cross_symbol">&#xf057;</string>
+    <string name="stars">&#xf005; &#xf005; &#xf005;</string>
+    <string name="invite">Invite Friends</string>
+    <string name="design">Designed by <a href="https://twitter.com/sonaal">Sonaal</a></string>
+    <string name="develop">Developed by <a href="https://twitter.com/achyuthbassist">Achyuth</a></string>
+    <string name="made">Made with</string>
+    <string name="love">&#xf004;</string>
+    <string name="nfn">at <a href="http://nfnlabs.in">NFN Labs</a></string>
+    <string name="app_id">1507764116109075</string>
+    <string name="facebook_icon">&#xf082;</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter_icon">&#xf081;</string>
+    <string name="twitter">Twitter</string>
+    <string name="google_icon">&#xf0d4;</string>
+    <string name="google">Google+</string>
+    <string name="email_icon">&#xf199;</string>
+    <string name="email">Email</string>
+    <string name="fb_update">Try GuessIn! Coming Soon on PlayStore!</string>
+    <string name="letter">Letters</string>
+    <string name="word">Words</string>
+    <string name="game">Games</string>
+    <string name="title_activity_how_to_play">HowToPlay</string>
+	<string name="bar"> | </string>
+	<string name="heading1">
+	    Your smart phone has thought of a word for you!\nYour task is to guess what that word is. How do you know if your guess is right? Simple. The accuracy of your guess will be shown by green, yellow and red indicators.
+	</string>
+	<string name="instruction1">
+	    For eg, say, a four letter word chosen by your phone is \'lord\', and your guess is \'like\'. This word has letter \'l\' in 
+		its right place which will give you a green indicator with number 1 inside it, which tells one of the letters is in the right place.
+	</string>
+	<string name="instruction2">
+	    If your guess is something like \'plot\', you\'ll get a yellow indicator, with number 2 inside it, which indicates 2 correct letters (\'l\' and \'o\') but in the wrong positions.
+	</string>
+	<string name="instruction3">
+	    Now, say, your guess is \'game\', which has no letters common to word chosen by the phone, it will give you a red indicator.
+	</string>
+	<string name="instruction4">
+	    Some of your guesses may also give you a combination of yellow and green indicators. Guessing \'doll\' will give you 2 yellow indicators (\'l\' and \'d\', correct letters in the wrong position) and 1 green indicator (\'o\' in the correct position).
+	</string>
+    <string name="footer">
+        Happy GuessIn! \nP.S. If you like the game, do leave us a quick review along with your feedback and suggestions so that we can make GuessIn better :)
+    </string>
+    <string name="contentdesc">Contentdesc</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="feedback">Feedback</string>
+    <string name="share_friends">Share with friends</string>
+    
+    
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitPrefEdits">
+        <ignore path="src/com/achyuthnfn/cnbfinal/SettingsEditor.java" />
+    </issue>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/achyuthnfn/cnbfinal/GamePlay.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src/com/achyuthnfn/cnbfinal/DatabaseAdapter.java" />
+        <ignore path="src/com/achyuthnfn/cnbfinal/FetchWord.java" />
+    </issue>
+</lint>

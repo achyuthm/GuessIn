@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mode_names">
+        <item name="easy_mode">Easy</item>
+        <item name="medium_mode">Medium</item>
+        <item name="complex_mode">Complex</item>
+    </string-array>
+    <string-array name="mode_desc">
+        <item name="easy_desc">4 letter word</item>
+        <item name="medium_desc">6 letter word</item>
+        <item name="complex_desc">8 letter word</item>
+    </string-array>
+</resources>

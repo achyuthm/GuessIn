@@ -1,0 +1,342 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity" >
+
+    <LinearLayout
+        android:id="@+id/custom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/settings" 
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca"
+        android:paddingLeft="5dp" 
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:id="@+id/mode_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/mode"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:id="@+id/modes"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+         >
+
+        <RadioButton
+            android:id="@+id/easymode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:drawableRight="@drawable/radio_button_green"
+            android:padding="5dp"
+            android:text="@string/easy_mode"
+            android:textSize="20sp"
+            android:textColor="@color/radiobtn_color_green" />
+
+        <RadioButton
+            android:id="@+id/mediummode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:drawableRight="@drawable/radio_button_yellow"
+            android:padding="5dp"
+            android:text="@string/medium_mode"
+            android:textSize="20sp"
+            android:textColor="@color/radiobtn_color_yellow" />
+
+        <RadioButton
+            android:id="@+id/complexmode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:drawableRight="@drawable/radio_button_red"
+            android:padding="5dp"
+            android:text="@string/complex_mode"
+            android:textSize="20sp" 
+            android:textColor="@color/radiobtn_color_red"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+
+    <RelativeLayout
+        android:id="@+id/sound_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/sound_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/sound"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/sound_indicator_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="7.2dp"
+            android:layout_marginRight="6dp"
+            android:paddingTop="0.5dp"
+            android:text="@string/tick_symbol"
+            android:textColor="#7ed321"
+            android:textSize="29sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+
+    <RelativeLayout
+        android:id="@+id/option_howtoplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/howtoplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/how"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/right_icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:layout_marginRight="9dp"
+            android:text="@string/icon_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+
+    <RelativeLayout
+        android:id="@+id/option_tellafriend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/tellafriend"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/tell"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/right_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:text="@string/icon_right" 
+            android:layout_marginRight="9dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+
+    <RelativeLayout
+        android:id="@+id/stats_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/yourstats"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/stats"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/right_icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:text="@string/icon_right"
+            android:layout_marginRight="9dp" />
+    </RelativeLayout>
+
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+    
+    
+    <RelativeLayout
+        android:id="@+id/feedback_option"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:text="@string/feedback"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/right_icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingTop="10dp"
+            android:text="@string/icon_right"
+            android:layout_marginRight="9dp" />
+    </RelativeLayout>
+    
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#cacaca" />
+    
+
+    <RelativeLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        >
+
+		<LinearLayout
+		    android:id="@+id/credits"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_centerHorizontal="true"
+		    android:orientation="horizontal" >
+
+		    <TextView
+		        android:id="@+id/design_credits"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp"
+		        android:text="@string/design"
+		        android:textColorLink="#000000" />
+
+		    <TextView
+		        android:id="@+id/bar"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="5dp"
+		        android:paddingRight="5dp"
+		        android:paddingTop="10dp"
+		        android:text="@string/bar" />
+
+		    <TextView
+		        android:id="@+id/develop_credits"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/develop"
+		        android:textColorLink="#000000" />
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:orientation="horizontal"
+		    android:layout_below="@+id/credits" 
+		    android:layout_marginTop="5dp">
+
+		    <TextView
+		        android:id="@+id/made"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="5dp"
+		        android:text="@string/made" />
+
+		    <TextView
+		        android:id="@+id/heart"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/love"
+		        android:textColor="#e2000e" />
+
+		    <TextView
+		        android:id="@+id/nfn"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingLeft="5dp"
+		        android:text="@string/nfn"
+		        android:textColorLink="#000000" />
+		</LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>
